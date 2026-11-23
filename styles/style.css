@@ -297,14 +297,6 @@
     gap: 20px;
   }
 
-  .section_type_factors {
-    grid-template-columns: 1fr;
-  }
-
-  .section_type_factors .section__title {
-    grid-column: 1 / -1;
-  }
-
   .gallery {
     gap: 20px;
   }
