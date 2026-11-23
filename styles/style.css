@@ -150,6 +150,10 @@
   gap: 20px;
 }
 
+.section_type_factors .section__content_factors {
+  grid-column: 1 / -1;
+}
+
 .section__title {
   color: var(--section-title-color);
   font-size: 18px;
@@ -364,7 +368,16 @@
     right: 48px;
   }
 
-  .section__content_factors {
+  .section_type_factors {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .section_type_factors .section__title {
+    grid-column: 1;
+  }
+
+  .section_type_factors .section__content_factors {
+    grid-column: 1 / -1;
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
