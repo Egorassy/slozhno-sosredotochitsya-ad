@@ -264,6 +264,7 @@
       0.5625rem + 14.4531vw,
       9.8125rem
     );
+    margin-left: -20px;
     white-space: nowrap;
   }
 
@@ -302,10 +303,6 @@
 
   .section_type_factors .section__title {
     grid-column: 1 / -1;
-  }
-
-  .section__content_factors {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .gallery {
@@ -373,5 +370,9 @@
   .header__rec {
     top: 20px;
     right: 48px;
+  }
+
+  .section__content_factors {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
