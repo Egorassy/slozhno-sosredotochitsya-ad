@@ -1,1 +1,1 @@
-github.com/Egorassy/slozhno-sosredotochitsya-ad
+https://github.com/Egorassy/slozhno-sosredotochitsya-ad
